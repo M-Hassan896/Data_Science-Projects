@@ -1,1 +1,4 @@
-
+- dataset: https://www.kaggle.com/datasets/outliersloop/footballyolov8
+- yolov8 github: https://github.com/ultralytics/ultralytics
+- yolov8 docs: https://docs.ultralytics.com/quickstart/
+- demo vedio: https://drive.google.com/file/d/1hXE1Gb0ZQBwSWnI-7hwQxhjZXcESTvzT/view?usp=sharing
