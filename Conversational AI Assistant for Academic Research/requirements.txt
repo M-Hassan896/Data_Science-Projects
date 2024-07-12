@@ -1,6 +1,0 @@
-langchain-community
-langchain-huggingface
-huggingface_hub
-transformers
-accelerate
-gradio
