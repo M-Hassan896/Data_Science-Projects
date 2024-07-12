@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Classification Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffcccb;  /* Light coral background for the whole page */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            background-color: #ffe4e1;  /* Light pinkish color for the container background */
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff6347;
+        }
+
+        .result {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .result p {
+            font-size: 20px;
+            color: #333;
+        }
+
+        .result a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            background-color: #ff6347;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .result a:hover {
+            background-color: #e55342;
+        }
+
+        .predicted-image {
+            margin-top: 20px;
+            max-width: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction Result</h1>
+        <div class="result">
+            <p>The predicted class is: <strong>{{ class_name }}</strong></p>
+            <img class="predicted-image" src="data:image/jpeg;base64,{{ img_data }}" alt="Predicted Image">
+            <a href="/">Go Back</a>
+        </div>
+    </div>
+</body>
+</html>
