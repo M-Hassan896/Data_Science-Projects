@@ -1,14 +1,16 @@
-##SPEECH ENHANCEMENT SYSTEM
-Introduction
+#SPEECH ENHANCEMENT SYSTEM:
+
+#Introduction:
+
 Speech enhancement systems aim to improve the quality and intelligibility of speech signals that are corrupted by noise or other unwanted distortions. In this report, we present a speech enhancement system implemented using unsupervised learning techniques.
 
-Unsupervised Learning
+#Unsupervised Learning:
 Unsupervised learning refers to training models without explicit labels, allowing them to learn patterns and structures inherent in the data. The system utilizes a convolutional neural network (CNN) to denoise audio signals and enhance speech quality.
 
-System Overview
+#System Overview:
 The speech enhancement system follows a pipeline that involves audio loading, spectrogram conversion, model training, and evaluation. The key components and techniques used in the system are as follows:
 
-Techniques
+#Techniques:
 Audio Loading: The system reads clean and noisy audio files using the load_wav(file_path) function. The audio files are stored as tensors.
 Spectrogram Conversion: The convert_to_spectrogram(wav) function transforms the audio waveforms into magnitude spectrograms using the Short-Time Fourier Transform (STFT) technique. This conversion provides a time-frequency representation of the audio signals.
 Unsupervised Learning: The system employs unsupervised learning techniques, where the model is trained on clean and noisy spectrograms without explicit labels. This allows the model to learn the underlying structures and patterns in the data.
