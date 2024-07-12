@@ -7,3 +7,6 @@ Welcome to our Conversational AI Assistant, a sophisticated and knowledgeable ch
 - Advanced language model: Utilizes VMware's flan-t5-large-alpaca.
 - Accurate and helpful interactions: Powered by the HuggingFace pipeline and LLMChain.
 - User-friendly interface: Built with Gradio for seamless and interactive communication.
+##Link
+
+https://huggingface.co/spaces/ahmadmac/chatbotGradio
